@@ -1,6 +1,6 @@
 package Excersice1;
 
-import java.awt.*;
+//import java.awt.*; esta debería ser la clase que se debería importar
 
 public class SomethingIsWrong {
     public static void main(String[] args) {
