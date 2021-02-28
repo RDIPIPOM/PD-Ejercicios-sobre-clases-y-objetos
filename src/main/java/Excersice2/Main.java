@@ -1,7 +1,7 @@
 package Excersice2;
 
 public class Main {
-    public static void Main(String[] args){
+    public static void main(String[] args){
         IdentifyMyParts a = new IdentifyMyParts();
         IdentifyMyParts b = new IdentifyMyParts();
         a.y = 5;
