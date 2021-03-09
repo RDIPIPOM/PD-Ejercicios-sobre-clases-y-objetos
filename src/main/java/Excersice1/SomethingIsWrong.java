@@ -1,13 +1,12 @@
 package Excersice1;
 
-//import java.awt.*; esta debería ser la clase que se debería importar
+import Excersice1.Rectangle;
 
 public class SomethingIsWrong {
     public static void main(String[] args) {
-        Rectangle myRect; //No es la forma adecuada de declarar un objeto y además la clase no fue importada anteriormente
-        //Rectangle myRect = new Rectangle(); Forma adecuada
+        Rectangle myRect = new Rectangle(); //Corregimos la forma en cómo estaba inicializado el rectangulo
         myRect.width = 40;
         myRect.height = 50;
-        System.out.println("myRect's area is " + myRect.area()); //Tampoco sabemos si la clase posee el método area
+        System.out.println("myRect's area is " + myRect.area());
     }
 }
